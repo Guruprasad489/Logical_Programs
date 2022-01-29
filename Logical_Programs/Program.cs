@@ -38,7 +38,7 @@ namespace Logical_Programs
                     NotesVendingMachine.GetNotes();
                     break;
                 case 8:
-                    
+                    DayOfWeek.FindDayOfWeek();
                     break;
                 case 9:
 
