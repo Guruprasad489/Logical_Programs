@@ -41,18 +41,24 @@ namespace Logical_Programs
                     DayOfWeek.FindDayOfWeek();
                     break;
                 case 9:
-
+                    TemperatureConversion.ConvertTemp();
                     break;
                 case 10:
-
+                    MonthlyPayment.GetMonthlyPayment();
                     break;
                 case 11:
-
+                    Console.WriteLine("Enter a non negative number: ");
+                    double c = Convert.ToDouble(Console.ReadLine());
+                    double answer = SquareRoot.GetSqrtOfNonNegativeNum(c);
+                    Console.WriteLine(answer);
                     break;
                 case 12:
-
+                    ToBinary.ConvertToBinary();
+                    Console.ReadLine();
                     break;
                 case 13:
+                    SwapNibblesAndResult.Swap_GetResultantNumber();
+                    break;
                 default:
                     Console.WriteLine("Please choose the correct ProgramNum");
                     break;

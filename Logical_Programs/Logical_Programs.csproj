@@ -46,6 +46,7 @@
     <Compile Include="CouponNumbers.cs" />
     <Compile Include="DayOfWeek.cs" />
     <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="MonthlyPayment.cs" />
     <Compile Include="NotesVendingMachine.cs" />
     <Compile Include="PerfectNumber.cs" />
     <Compile Include="PrimeNumber.cs" />
@@ -53,6 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SimulateStopWatch.cs" />
+    <Compile Include="SquareRoot.cs" />
+    <Compile Include="SwapNibblesAndResult.cs" />
+    <Compile Include="TemperatureConversion.cs" />
+    <Compile Include="ToBinary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
